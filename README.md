@@ -40,10 +40,10 @@
 
 ### 📎 Evidencia
 - 📷 Screenshots: [
-                    ![Home](evidencias/1.png),
-                    ![Resultados de búsqueda](evidencias/2.png),
-                    ![Detalles del vuelo](evidencias/3.png),
-                    ![Checkout](evidencias/4.png)
+                    ![Home](evidencias/bug-001/1.png),
+                    ![Resultados de búsqueda](evidencias/bug-001/2.png),
+                    ![Detalles del vuelo](evidencias/bug-001/3.png),
+                    ![Checkout](evidencias/bug-001/4.png)
                 ]
 - 🎥 Video: N/A
 - 📄 Logs: N/A
