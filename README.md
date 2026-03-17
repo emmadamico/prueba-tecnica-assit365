@@ -25,8 +25,7 @@
 > Al reducir el tamaño de la página, por ejemplo: versión tablet y/o mobile, se evidencias diferentes errores relacionados al responsive (o a la falta del mismo).
 
 ### ⚙️ Precondiciones
-- [Estado inicial]
-- [Ej: Usuario logueado / Producto creado]
+- N/A
 
 ### 🔁 Pasos para reproducir
 1. Ir a: `[http://3.239.228.202:3000/]`
@@ -45,6 +44,89 @@
                     [Detalles del vuelo](evidencias/bug-001/3.png),
                     [Checkout](evidencias/bug-001/4.png)
                 ]
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-002`
+
+### 📄 Página / Módulo
+[Toda la web en general]
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
+
+### 🧾 Título
+> Navbar: Typo en el tab de vuelos.
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Visualizar el tab de vuelos en el navbar.
+
+### ❌ Resultado actual
+> Se observa que dice "Vuelas"
+
+### ✅ Resultado esperado
+> El tab debería decir: "Vuelos"
+
+### 📎 Evidencia
+- 📷 Screenshots: [Navbar](evidencias/bug-002/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-003`
+
+### 📄 Página / Módulo
+[Toda la web en general]
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
+
+### 🧾 Título
+> No se visualiza el favicon
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+
+### ❌ Resultado actual
+> Se observa que no hay favicon
+
+### ✅ Resultado esperado
+> El favicon debería de estar visible
+
+### 📎 Evidencia
+- 📷 Screenshots: [Favicon](evidencias/bug-003/1.png)
 - 🎥 Video: N/A
 - 📄 Logs: N/A
 
