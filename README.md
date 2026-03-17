@@ -160,13 +160,13 @@
 ### 🔁 Pasos para reproducir
 1. Ir a: `[http://3.239.228.202:3000/]`
 2. Hacer click en:
-    a. Hoteles
-    b. Paquetes
-    c. Ofertas
-    d. Cruceros
-    e. Sobre nosotros
-    f. Prensa
-    g. Trabaja con nosotros
+    - Hoteles
+    - Paquetes
+    - Ofertas
+    - Cruceros
+    - Sobre nosotros
+    - Prensa
+    - Trabaja con nosotros
 
 ### ❌ Resultado actual
 > Al hacer click en los links mencionados, se ejecuta la redirección a la Home.
@@ -185,14 +185,98 @@
 `BUG-005`
 
 ### 📄 Página / Módulo
-[Toda la web en general]
+[Home]
 
 ### 🏷️ Tipo
 - [ ] Visual  
 - [x] Funcional  
 - [ ] Validación  
 - [ ] Lógica  
+- [x] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> No se visualiza el contenido de los desplegables de búsqueda de vuelos
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. En el buscador, poner una letra para visualizar el desplegable con las opciones de destino.
+
+### ❌ Resultado actual
+> Se visualiza tanto en "Sólo ida", "Ida y Vuelta", "Multi-ciudad"; desplegables que parecen vacíos hasta que se pasa el mouse por encima.
+
+### ✅ Resultado esperado
+> Deberían visualizarse los destinos.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Desplegable del buscador](evidencias/bug-005/1.png)
+- 🎥 Video: [Evidencia](https://jam.dev/c/ab2886b1-b71a-4bb5-b8e9-befb31690473)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-006`
+
+### 📄 Página / Módulo
+[Home]
+
+### 🏷️ Tipo
+- [x] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
 - [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Los desplegables del buscador de vuelos quedan por debajo del contenido siguiente de la página
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. En el buscador, poner una letra para visualizar el desplegable con las opciones de destino.
+
+### ❌ Resultado actual
+> El desplegable queda por detrás del próximo contenido de la página.
+
+### ✅ Resultado esperado
+> Se debería de poder visualizar todo el desplegable correctamente
+
+### 📎 Evidencia
+- 📷 Screenshots: [Desplegable del buscador](evidencias/bug-006/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-007`
+
+### 📄 Página / Módulo
+[Home]
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [x] UX  
 
 ### 🚨 Severidad
 - [ ] 🔴 Crítico (bloqueante)
@@ -201,31 +285,72 @@
 - [ ] 🟢 Bajo
 
 ### 🧾 Título
-> Algunos links del navbar y footer redirigen a la Home
+> Los desplegables del buscador de vuelos se superponen entre sí
 
 ### ⚙️ Precondiciones
 - N/A
 
 ### 🔁 Pasos para reproducir
 1. Ir a: `[http://3.239.228.202:3000/]`
-2. Hacer click en:
-    a. Hoteles
-    b. Paquetes
-    c. Ofertas
-    d. Cruceros
-    e. Sobre nosotros
-    f. Prensa
-    g. Trabaja con nosotros
+2. En el buscador, poner una letra en ambos desplegables.
 
 ### ❌ Resultado actual
-> Al hacer click en los links mencionados, se ejecuta la redirección a la Home.
+> Los desplegables se superponen entre sí
 
 ### ✅ Resultado esperado
-> Cada link debería redirigir a su respectiva página.
+> Opción 1: Deberían de poder visualizarse sin superposición
+> Opción 2: Al desplegar uno el otro debería de contraerse
+> Opción 3: No permitir desplegar los dos al mismo tiempo
 
 ### 📎 Evidencia
-- 📷 Screenshots: N/A
-- 🎥 Video: [Evidencia](https://jam.dev/c/ba426eb7-2fe2-46a9-92a4-1a7f7ae3b0a8)
+- 📷 Screenshots: [Desplegable del buscador](evidencias/bug-007/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-008`
+
+### 📄 Página / Módulo
+[Home]
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
+
+### 🧾 Título
+> Los placeholders de los inputs Origen y/o Destino tienen el texto cortado
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Visualizar los inputs de Origen y/o Destino del buscador de vuelos tanto en "Sólo ida", "Ida y Vuelta", "Multi-ciudad"
+
+### ❌ Resultado actual
+> Los placeholders estan entrecortados
+
+### ✅ Resultado esperado
+> Debería de visualizarse coreectamente el texto de los placeholders
+
+### 📎 Evidencia
+- 📷 Screenshots: [
+    [Ida](evidencias/bug-008/1.png),
+    [Ida y vuelta](evidencias/bug-008/2.png),
+    [Multi](evidencias/bug-008/3.png)
+]
+- 🎥 Video: N/A
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
