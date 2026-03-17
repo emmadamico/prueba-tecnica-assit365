@@ -10,66 +10,42 @@
 
 ### 🏷️ Tipo
 - [x] Visual  
-- [] Funcional  
-- [] Validación  
-- [] Lógica  
-- [] UX  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
 
 ### 🚨 Severidad
-- [] 🔴 Crítico (bloqueante)
-- [] 🟠 Alto
-- [] 🟡 Medio
-- [] 🟢 Bajo
-
----
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
 
 ### 🧾 Título
-> Breve descripción del problema
-
----
+> Al reducir el tamaño de la página, por ejemplo: versión tablet y/o mobile, se evidencias diferentes errores relacionados al responsive (o a la falta del mismo).
 
 ### ⚙️ Precondiciones
 - [Estado inicial]
 - [Ej: Usuario logueado / Producto creado]
 
----
-
 ### 🔁 Pasos para reproducir
-1. Ir a: `[URL]`
-2. [Acción]
-3. [Acción]
-4. [Acción]
-
----
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Recorrer las diferentes páginas (Home, Resultados de búsqueda, Detalles del vuelo, Checkout, etc) achicando el tamano de las mismas.
 
 ### ❌ Resultado actual
-> Descripción clara del error observado
-
----
+> Se observan campos desalineados, componentes que no están acondicionados para los distintos tamaños de pantalla, el navbar que queda por fuera sin lograrse un menú hamburguesa o similar
 
 ### ✅ Resultado esperado
-> Comportamiento correcto esperado
-
----
+> La página, y todos los componentes que la conforman, deben ajustarse correctamente a los difeerentes tamaños
 
 ### 📎 Evidencia
-- 📷 Screenshots:
-- 🎥 Video:
-- 📄 Logs:
-
----
-
-### 🧪 Datos de prueba (opcional)
-- Usuario:
-- Password:
-- Datos utilizados:
-
----
-
-### 🌍 Entorno
-- Ambiente: [QA / Staging / Prod]
-- Browser: [Chrome / Firefox / etc]
-- Versión:
-- Dispositivo:
+- 📷 Screenshots: [
+                    ![Home](evidencias/1.png),
+                    ![Resultados de búsqueda](evidencias/2.png),
+                    ![Detalles del vuelo](evidencias/3.png),
+                    ![Checkout](evidencias/4.png)
+                ]
+- 🎥 Video: N/A
+- 📄 Logs: N/A
 
 -------------------------------------------------------------
