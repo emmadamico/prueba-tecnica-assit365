@@ -2331,3 +2331,254 @@
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-055`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema sólo permite hacer uso de tarjeta de crédito
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Intentar seleccionar como medio de pago tardeja de débito o transferencia
+
+### ❌ Resultado actual
+> El sistema sólo permite el uso de tarjetas de crédito
+
+### ✅ Resultado esperado
+> Al mostrar otros medios de pago, el sistema debería permitir hacer uso de cualquiera de ellos.
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/a70a8a20-8ddb-49a4-8af6-ef58bbb69df3)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-056`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Los links de "Términos y Condiciones" y "Políticas de Privacidad" no muestran nada de información
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Hacer click en los links de "Términos y Condiciones" y "Políticas de Privacidad"
+
+### ❌ Resultado actual
+> El sistema no hace nada la hacer click en esos links
+
+### ✅ Resultado esperado
+> Al hacer lick en cada uno de esos lincks, el sistema debería acceder al usuario a la información legal pertinente a cada uno de dichos links.
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-057`
+
+### 📄 Página / Módulo
+`Checkout`
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Al hacer scroll algunos componentes se superponen
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Hacer scroll en la pantalla
+
+### ❌ Resultado actual
+> El resumen del datos del pasajero se superpone con el resumen de la reserva
+
+### ✅ Resultado esperado
+> No debería de darse ningun tipo de superposición entre componentes
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/c799ae70-7069-4aad-ac31-4b5469ec0b74)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-058`
+
+### 📄 Página / Módulo
+`Checkout` | `Confirmación`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite reprocesar un pago al volver hacias atrás en el navegador
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Completar todos los datos de la tarjeta
+2. Confirmar y pagar
+3. Al visualizar la reserva confirmada, ir hacia atrás en el navegador
+4. Estando ahora en la pantalla de checkout nuevamente, volver a confirmar y pagar
+5. Repetir pasos 3 y 4 las veces que se quiera
+
+### ❌ Resultado actual
+> El sistema reprocesa el pago al navegar hacia atras en el navegador y volvidno a confirmar la transacción, generando cobros y reservas duplicadas
+
+### ✅ Resultado esperado
+> Opción 1: Al confirmar la reserva debería de automaticamente redirigir al Home
+> Opción 2: Al volver hacia atras desde la pantalla de confirmación debería de ir haciane la Home directamente
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/1f083328-adbb-4429-9661-eb35ed06db85)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-059`
+
+### 📄 Página / Módulo
+`Confirmación`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [x] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El detalle de la reserva no muestra toda la información pertinente
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de confirmación de la reserva
+
+### 🔁 Pasos para reproducir
+1. Visualizar los detalles de la reserva
+
+### ❌ Resultado actual
+> El detalle de la reserva muestra el tipo de tarjeta usada ni la cantidad de cuotas ni la fecha de salida
+
+### ✅ Resultado esperado
+> El sistema debería de mostar el tipo de tarjeta usada, la cantidad de cuotas y la fecha de salida, en el detalle de la reserva
+
+### 📎 Evidencia
+- 📷 Screenshots: [Detalle de reserva](evidencias/bug-059/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-060`
+
+### 📄 Página / Módulo
+`Seleciión de vuelo` | `Carrito de compras`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Los vuelos seleccionados no se agregan al carrito de compras
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de confirmación de la selección de vuelos
+
+### 🔁 Pasos para reproducir
+1. Seleccionar un vuelo
+
+### ❌ Resultado actual
+> Al seleccionar un vuelo, este no se agrega al carrito de compras y el mismo permanece vacío, aunqie el sistema permite avanzar con la compra, generando una inconsistencia en el estado del flujo.
+
+### ✅ Resultado esperado
+> El sistema debería agregar los vuelos seleccionados al carrito de compras
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/34431dbf-ba79-4d41-b74c-7c1c8d3c814b)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
