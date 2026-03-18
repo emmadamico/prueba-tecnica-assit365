@@ -1575,3 +1575,759 @@
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-037`
+
+### 📄 Página / Módulo
+`Buscador de vuelos` | `Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El resumen en los resultados de búsqueda, sólo refleja la fecha de salida
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Ida y vuelva o Multi-ciudad
+3. Competar todos los campos
+4. Hacer click en buscar vuelos
+5. Ver el resumen de la búsqueda
+
+### ❌ Resultado actual
+> En el resumen, margen superior, sólo se visualiza la fecha de salida
+
+### ✅ Resultado esperado
+> Deberían de mostrarse la fecha de salida y la de regreso
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-037/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-038`
+
+### 📄 Página / Módulo
+`Buscador de vuelos` | `Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Buscar por multi-ciudad o ida y vuelta, sólo trae vuelos de ida
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Ida y vuelva o Multi-ciudad
+3. Competar todos los campos
+4. Hacer click en buscar vuelos
+
+### ❌ Resultado actual
+> La búsqueda de vuelos ignora el tipo de viaje (ida y vuelta o multi-ciudad), con excepción del precio, y muestra únicamente los vuelos de ida
+
+### ✅ Resultado esperado
+> Deberían de mostrarse los resultados correctos en base al tipo de búsqueda
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-038/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-039`
+
+### 📄 Página / Módulo
+`Detalles del vuelo` | `Resumen del vuelo`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El resumen del vuelo no refleja el tipo y el precio correcto
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de vuelos disponibles en base a la búsqueda efectuada
+- La busqueda debe ser Ida y vuelta o Multi-ciudad
+
+### 🔁 Pasos para reproducir
+1. Elegir un vuelo
+2. Visualizar el resumen del vuelo
+
+### ❌ Resultado actual
+> En el resumen del vuelo se visualiza que sólo hay pasaje de ida y que el precio es la mitad del que figuraba al momento de seleccionar el vuelo
+
+### ✅ Resultado esperado
+> Deberían de reflejarse: vuelo de ida y vuelta, y además el precio correcto
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/0e38f314-8ab7-4643-b9f5-063bfc8f64b9)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-040`
+
+### 📄 Página / Módulo
+`Detalles del vuelo` | `Datos de pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema sólo permite cargar los datos de un pasajero
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de vuelos disponibles en base a la búsqueda efectuada
+- La busqueda debe ser realizarse con una canidad de pasajeros mayor a 1
+
+### 🔁 Pasos para reproducir
+1. Elegir un vuelo
+2. Visualizar el detalle del vuelo/pasajero
+
+### ❌ Resultado actual
+> Sólo se visualizan los campos para completar los datos de un sólo pasajero
+
+### ✅ Resultado esperado
+> El sistema debería permitir cargar los datos de todos los pasajeros
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/0d9b3bd4-b6c6-4470-b9c4-926a8654dd5a)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-041`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema toma como válido cualquier cadena de caracteres de longitud 3 o superior
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar cualquier cadena de caracteres de longitud 3 o superior en código de descuento
+
+### ❌ Resultado actual
+> Se aplica un 10% de descuento sobre el total del vuelo sin incluir los impuestos y tasas
+
+### ✅ Resultado esperado
+> El sistema debería de aplicar descuentos en base a cupones/códigos válidos
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/5ffb360e-818c-4e4a-be92-234f6d373f3d)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-042`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema no valida que el nombre y apellido sea del tipo string
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero en nombre y apellido poner numeros y/o caracteres especiales o solo espacios en blanco
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar el tipo de dato de esos campos
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-043`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin elegir un tipo de documento
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero no seleccionar ningún tipo de documento
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar el exigir el tipo de documento para poder avanzar
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-044`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin validar el número de documento ingresado
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero en el número de documento:
+   - Ingresar uno con una longitud muy corta (ej, DNI 13)
+   - Ingresar cualquier caracter
+   - Ingresar espacios en blanco
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar que el número de documento se corresponda con el tipo de documento, que respecte el tipo de dato, que no acpete espacios en blanco y además que respete la longitud mínima
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-045`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin ingresar la fecha de nacimiento
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero no ingresar la fecha de nacimiento
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar el ingreso de la fecha ya que es un campo obligatorio
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-046`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin ingresar la nacionalidad
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero no selecionar la nacionalidad
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar la nacionalidad ya que es un campo obligatorio
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-047`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin ingresar el número de teléfono o con sólo espacios en blanco
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, pero no ingresar el número de teléfono
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar el ingreso del número de teléfono ya que es un campo obligatorio
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-048`
+
+### 📄 Página / Módulo
+`Navbar`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [x] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Cantidad inconsistente de tabs en el navbar según la página
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir pasando por las diferntes partes del sistema y visualizar el navbar
+
+### ❌ Resultado actual
+> El sistema es inconsistente con la cantidad de tabs que hay en cada página, afectando la navegación y la experiencia de usuario.
+
+### ✅ Resultado esperado
+> El navbar debería de ser consistente en cada página del sistema.
+
+### 📎 Evidencia
+- 📷 Screenshots: [
+    [Ejemplo 1](evidencias/bug-048/1.png),
+    [Ejemplo 2](evidencias/bug-048/2.png),
+    [Ejemplo 3](evidencias/bug-048/3.png)
+]
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-049`
+
+### 📄 Página / Módulo
+`Detalles de vuelos/pasajeros`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin validar la fecha de nacimiento (edad mínima)
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de detalles de vuelos/pasajeros
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del formulario, en la fecha de nacimiento poner la fecha actual
+
+### ❌ Resultado actual
+> El sistema permite avanzar al pago
+
+### ✅ Resultado esperado
+> El sistema debería de validar la fecha de nacimiento (edad mínima) respecto al tipo de pasajero (adulto: mayor de 12 años, niño: entre 2 y 11 años, etc)
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-050`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar poniendo un nombre que no sea del tipo string 
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del medio de pago disponible (tarjeta de crédito), pero en el nombre poner cualquier caracter que no sea un string
+
+### ❌ Resultado actual
+> El sistema permite procesar el pago exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de validar que el nombre se corresponda con el medio de pago utilizado (ejemplo: tarjeta de crédito)
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-051`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin ingresar el nombre en el medio de pago 
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del medio de pago disponible (tarjeta de crédito), pero en el nombre dejarlo vacío
+
+### ❌ Resultado actual
+> El sistema permite procesar el pago exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de validar el nombre como campo obligatorios y que se corresponda con el medio de pago utilizado (tarjeta de crédito)
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-052`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar con una fecha de vencimiento inferior a la actual
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del medio de pago disponible (tarjeta de crédito), pero en la fecha de vencimiento poner una inferior a la actual
+
+### ❌ Resultado actual
+> El sistema permite procesar el pago exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de validar la fecha de vencimiento del medio de pago (tarjeta de crédito) antes de poder avanzar.
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-053`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema no valida que el CVV sean sólo números
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del medio de pago disponible (tarjeta de crédito), pero en el CVV poner caracteres no numéricos
+
+### ❌ Resultado actual
+> El sistema permite procesar el pago exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de validar que el CVV se númerico y se corresponda con el número y tipo de tarjeta
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-054`
+
+### 📄 Página / Módulo
+`Checkout` | `Medio de Pago`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite avanzar sin aceptar los términos y condiciones, y la política de privacidad
+
+### ⚙️ Precondiciones
+- Estar en la pantalla de checkout
+
+### 🔁 Pasos para reproducir
+1. Ingresar todos los datos del medio de pago disponible (tarjeta de crédito), pero no aceptar los términos y condiciones, y la política de privacidad
+
+### ❌ Resultado actual
+> El sistema permite procesar el pago exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de exigir aceptar dichos términos y políticas antes de poder avanzar
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
