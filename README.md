@@ -16,7 +16,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -63,7 +63,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [x] 🟢 Bajo
@@ -105,7 +105,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [x] 🟢 Bajo
@@ -146,7 +146,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -195,7 +195,7 @@
 - [x] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -237,7 +237,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -279,7 +279,7 @@
 - [x] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -323,7 +323,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [x] 🟢 Bajo
@@ -369,7 +369,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -411,7 +411,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -453,7 +453,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -496,7 +496,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -539,7 +539,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -582,7 +582,7 @@
 - [x] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -626,7 +626,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -670,7 +670,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -712,7 +712,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -755,7 +755,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [x] 🟢 Bajo
@@ -798,7 +798,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -841,7 +841,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [x] 🟢 Bajo
@@ -885,7 +885,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [x] 🔴 Crítico (bloqueante)
+- [x] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -928,7 +928,7 @@
 - [x] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -972,7 +972,7 @@
 - [x] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1016,7 +1016,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1059,7 +1059,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [x] 🔴 Crítico (bloqueante)
+- [x] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1103,7 +1103,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1147,7 +1147,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1191,7 +1191,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1235,7 +1235,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [x] 🔴 Crítico (bloqueante)
+- [x] 🔴 Crítico
 - [ ] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1279,7 +1279,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [ ] 🟠 Alto
 - [x] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1323,7 +1323,7 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
@@ -1367,13 +1367,13 @@
 - [ ] UX  
 
 ### 🚨 Severidad
-- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🔴 Crítico
 - [x] 🟠 Alto
 - [ ] 🟡 Medio
 - [ ] 🟢 Bajo
 
 ### 🧾 Título
-> La búsqueda por Multi-ciudad muestra los resultados de Sól Ida
+> La búsqueda por Multi-ciudad muestra los resultados de Sólo Ida
 
 ### ⚙️ Precondiciones
 - N/A
@@ -1393,6 +1393,185 @@
 ### 📎 Evidencia
 - 📷 Screenshots: N/A
 - 🎥 Video: [Evidencia](https://jam.dev/c/fc1b2b88-4e37-488e-ad61-67cc375ca6c5)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-033`
+
+### 📄 Página / Módulo
+`Buscador de vuelos` | `Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Los resultados de una búsqueda de vuelos no aparecen, por defecto, ordenamos por precio de forma ascendente
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Solo ida, Ida y vuelva o Multi-ciudad
+3. Competar todos los campos
+4. Hacer click en buscar vuelos
+
+### ❌ Resultado actual
+> El sistema, por defecto, debería de mostrar los vuelos ordenados de menor a mayor precio
+
+### ✅ Resultado esperado
+> El sistema no los muestra ordenados de ninguna forma
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/10fac259-5130-4866-8f44-e76384ad510f)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-034`
+
+### 📄 Página / Módulo
+`Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Sólo funciona el filtro de escala
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Solo ida, Ida y vuelva o Multi-ciudad
+3. Competar todos los campos
+4. Hacer click en buscar vuelos
+5. En los resultados de vuelos, interactuar con los diferentes filtros
+
+### ❌ Resultado actual
+> El único filtro que finciona es el de las escalas
+
+### ✅ Resultado esperado
+> Deberían de funcionar todos los filtros (precio, escalas, aerolíneas, horario de salida)
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/741b450e-eaa4-4d01-ace0-33490745b2cc)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-035`
+
+### 📄 Página / Módulo
+`Buscador de vuelos` | `Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El resumen en los resultados de búsqueda, sólo refleja los pasajeros del tipo "Adulto"
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Solo ida, Ida y vuelva o Multi-ciudad
+3. Competar todos los campos, seleccionando uno o mas adultos y por lo menos un niño
+4. Hacer click en buscar vuelos
+5. Ver el resumen de la búsqueda
+
+### ❌ Resultado actual
+> En el resumen, margen superior, sólo se visualiza que la búsqueda fue efectuada para los adultos
+
+### ✅ Resultado esperado
+> Deberían de mostrarse la cantidad correcta y tipo correcto de pasajeros
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/29b764b9-59c3-47e4-a262-7ec796deaec3)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-036`
+
+### 📄 Página / Módulo
+`Resultados de Búsqueda`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema muestra vuelos con menor disponibildad de asientos que la cantidad de pasajeros
+
+### ⚙️ Precondiciones
+- Elegir Ezeiza como origen
+- Elegir Madrid como destino
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Solo ida, Ida y vuelva o Multi-ciudad
+3. Competar todos los campos, seleccionando, por ejemplo, 5 pasajeros
+4. Hacer click en buscar vuelos
+
+### ❌ Resultado actual
+> El sistema muestra vuelos con menor disponibildad de asientos que la cantidad de pasajeros, incumpliendo las condiciones de búsqueda.
+
+### ✅ Resultado esperado
+> Deberían de mostrarse los vuelos que cumples con las condiciones de búsqueda.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-036/1.png)
+- 🎥 Video: N/A
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
