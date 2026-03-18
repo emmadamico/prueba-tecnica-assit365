@@ -1,7 +1,7 @@
 // Desafío: Verificar respuesta de todas las páginas
 // Modo Página — usá `page` directamente, el sitio ya está abierto.
 
-const baseURL = 'http://3.239.228.202:3000';
+const baseURL = page.url();
 
 const rutas = ['/', '/results.html', '/login.html', '/cart.html', '/console.html'];
 
