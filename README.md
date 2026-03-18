@@ -136,7 +136,7 @@
 `BUG-004`
 
 ### 📄 Página / Módulo
-`Toda la web en general`
+`Navbar` | `Footer`
 
 ### 🏷️ Tipo
 - [ ] Visual  
@@ -652,6 +652,264 @@
 ### 📎 Evidencia
 - 📷 Screenshots: N/A
 - 🎥 Video: [Evidencia](https://jam.dev/c/74329978-2649-47a1-bb5b-65d4550cebfa)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-016`
+
+### 📄 Página / Módulo
+`Home` | `CTA: Ver Ofertas`
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> No se identifica la acción clave del botón junto al "Cyber Monday"
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar a la sección del Cyber Monday
+
+### ❌ Resultado actual
+> El botón "Ver Ofertas" no es visible debido a la falta de contraste, impidiendo que se identifique la acción clave.
+
+### ✅ Resultado esperado
+> Debería de visualizarse correctamente a que hace referencia el botón.
+
+### 📎 Evidencia
+- 📷 Screenshots: [CTA](evidencias/bug-016/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-017`
+
+### 📄 Página / Módulo
+`Home` | `Destinos Populares`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> Seleccionar un destino popular redirige a la home
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar a la sección de Destinos Populares
+3. Hacer click en cualquiera de esos destinos
+
+### ❌ Resultado actual
+> Al hacer click en un destino popular, el sistema redirige a la home en lugar de navegar al contenido correspondiente.
+
+### ✅ Resultado esperado
+> Al hacer click en un destino popular, el sistema debería de navegar al contenido correspondiente.
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/3d0bc2d1-d00d-4a8d-a8de-84ffdc31f133)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-018`
+
+### 📄 Página / Módulo
+`Home`
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
+
+### 🧾 Título
+> Se visualiza placeholder de imagen rota debajo de "Soporte 24/7"
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar a la sección de "¿Por qué elegir AeroVista?"
+
+### ❌ Resultado actual
+> Debajo de "Soporte 24/7" se muestra un placeholder de imagen rota y un texto de "soporte badge", rompiendo la consistencia visual del componente
+
+### ✅ Resultado esperado
+> Opción 1: Debería de eliminarse ese contenido
+> Opción 2: Si es contenido faltante, debería de agregarse correctamente (imagen, h3, texto)
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-018/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-019`
+
+### 📄 Página / Módulo
+`Home` | `Suscripción`
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El campo de suscripción acepta valores que no cumplen el formato de email
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar a la sección de Suscribirse
+3. Ingresar cualquier caracter, o cadena de caracteres, que no cumplan el formato de email
+
+### ❌ Resultado actual
+> El sistema acepta cualquier caracter, con excepción de espacios en blanco, como email válido
+
+### ✅ Resultado esperado
+> El sistema debería de validar el formato de email
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-019/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-020`
+
+### 📄 Página / Módulo
+`Footer`
+
+### 🏷️ Tipo
+- [x] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [x] 🟢 Bajo
+
+### 🧾 Título
+> El año del copyright no está actualizado
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar al footer
+
+### ❌ Resultado actual
+> El año visible en el coyright no coincide con el año actual
+
+### ✅ Resultado esperado
+> Opción 1: Actualizarlo al año actual
+> Opción 2: Poner un rango, es decir, 2019 - 2026 (año actual)
+> Opción 3: Hacerlo dinámico para que se actualice sólo en cada nuevo año
+
+### 📎 Evidencia
+- 📷 Screenshots: [Copyright](evidencias/bug-020/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-021`
+
+### 📄 Página / Módulo
+`Footer`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> La página de contacto está rota
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer scroll hasta llegar al footer
+3. Hacer click en contacto
+
+### ❌ Resultado actual
+> El sistema redirige pero la página de contacto está rota
+
+### ✅ Resultado esperado
+> Debería de poder visualizarse la página de contacto correctamente
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Contacto](https://jam.dev/c/1370c1a5-9705-480f-9fcc-9dcd4d035f21)
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
