@@ -913,3 +913,178 @@
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-022`
+
+### 📄 Página / Módulo
+`Login`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [x] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema confirma implícitamente que el email ingresado es válido
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Ingresar un mail válido y una contraseña inválida
+4. Hacer click en ingresar
+
+### ❌ Resultado actual
+> El sistema muestra un mensaje de que la contraseña es incorrecta, dejando en evidencia que el mail puede ser válido.
+
+### ✅ Resultado esperado
+> El sistema debería de mostrar un mensaje más seguro, por ejemplo: "Credrenciales Inválidas"
+
+### 📎 Evidencia
+- 📷 Screenshots: [Credenciales](evidencias/bug-022/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-023`
+
+### 📄 Página / Módulo
+`Login`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [x] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema confirma explícitamente que el email ingresado es válido
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Ingresar un mail inválido y una contraseña inválida (o válida)
+4. Hacer click en ingresar
+
+### ❌ Resultado actual
+> El sistema muestra un mensaje explícito de que no existe una cuenta con ese mail.
+
+### ✅ Resultado esperado
+> El sistema debería de mostrar un mensaje más seguro, por ejemplo: "Credrenciales Inválidas"
+
+### 📎 Evidencia
+- 📷 Screenshots: [Credenciales](evidencias/bug-023/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-024`
+
+### 📄 Página / Módulo
+`Login`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El link de recupero de contraseña no funciona
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Hacer click en "¿Olvidaste tu contraseña?
+
+### ❌ Resultado actual
+> El sistema no redirige a ninguna pantalla de recupero de contraseña
+
+### ✅ Resultado esperado
+> El sistema debería de redirigir al usuario a una pantalla donde pueda efectuar el recupero de contraseña
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-025`
+
+### 📄 Página / Módulo
+`Login`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema no mantiene la sesión del usuario
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Ingresar credenciales válidas
+4. Hacer click en ingresar
+
+### ❌ Resultado actual
+> El sistema permite ingresar credenciales válidas, redirige a la home, pero no mantiene la sesión del usuario, impidiendo que quede autenticado.
+
+### ✅ Resultado esperado
+> El sistema debería mantener la sesión del usuario activa ya sea hasta que cierre la sesión o hasta que pase cierto tiempo sin actividad.
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Autenticación](https://jam.dev/c/5a05a319-d421-4cf7-93c4-808f3c5c136c)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
