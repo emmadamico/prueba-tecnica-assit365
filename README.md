@@ -1088,3 +1088,311 @@
 - 📄 Logs: N/A
 
 -------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-026`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite registrar usuarios con nombre y apellido distinto de un string
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. Completar todos los campos, pero en el nombre y apellido poner números (u otros caracteres)
+
+### ❌ Resultado actual
+> El sistema permite crear la cuenta con esos datos
+
+### ✅ Resultado esperado
+> El sistema debería de validar que esos campos sólo admitan letras.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-026/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-027`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite registrar usuarios con formato inválido de emails
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. Completar todos los campos, pero en el email poner un formato inválido
+
+### ❌ Resultado actual
+> El sistema permite crear la cuenta con ese email malformado
+
+### ✅ Resultado esperado
+> El sistema debería de validar el formato del email.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-027/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-028`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite registrar usuarios con una contraseña que no cumple el mínimo de longitud
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. Completar todos los campos, pero en contraseña y confirmar contraseña, poner una cantidad menor a la longitud mínima
+
+### ❌ Resultado actual
+> El sistema permite crear la cuenta con esa clave
+
+### ✅ Resultado esperado
+> El sistema debería de validar el mínimo de caracteres.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-028/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-029`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [x] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [x] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El sistema permite registrar crear cuentas con contraseñas distintas
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. Completar todos los campos, pero en contraseña y confirmar contraseña, poner contraseñas distintas
+
+### ❌ Resultado actual
+> El sistema permite crear la cuenta exitosamente
+
+### ✅ Resultado esperado
+> El sistema debería de validar que ambas contraseñas sean iguales y cumplan, por lo menos, el mínimo de longitud.
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-029/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-030`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [ ] 🟠 Alto
+- [x] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> El indicador de fortaleza de contraseña varís solo hasta nivel medio de seguridad
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. En el campo de contraseña poder una de mas de 8 caracteres que incluya, por lo menos: una mayúcula, numeros, caracteres especiales, etc 
+
+### ❌ Resultado actual
+> El indicar de fortaleza de contraseña sólo varía hasta nivel medio de seguridad, sin importar cuan larga y compleja sea.
+
+### ✅ Resultado esperado
+> El sistema debería de establecer los requerimientos para los niveles de fortaleza (y cumplirlos)
+
+### 📎 Evidencia
+- 📷 Screenshots: [Evidencia](evidencias/bug-030/1.png)
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-031`
+
+### 📄 Página / Módulo
+`Registro`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [x] Funcional  
+- [ ] Validación  
+- [ ] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> No se visualizan los términos y condiciones
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Hacer click en iniciar sesión
+3. Click en crear cuenta
+4. Hacer click en el enlace de Términos y Condiciones 
+
+### ❌ Resultado actual
+> No se visualizan los términos y condiciones.
+
+### ✅ Resultado esperado
+> El sistema debería de informar cuales son los términos y condiciones
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: N/A
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
+
+### 🆔 ID Bug
+`BUG-032`
+
+### 📄 Página / Módulo
+`Buscador de vuelos`
+
+### 🏷️ Tipo
+- [ ] Visual  
+- [ ] Funcional  
+- [ ] Validación  
+- [x] Lógica  
+- [ ] UX  
+
+### 🚨 Severidad
+- [ ] 🔴 Crítico (bloqueante)
+- [x] 🟠 Alto
+- [ ] 🟡 Medio
+- [ ] 🟢 Bajo
+
+### 🧾 Título
+> La búsqueda por Multi-ciudad muestra los resultados de Sól Ida
+
+### ⚙️ Precondiciones
+- N/A
+
+### 🔁 Pasos para reproducir
+1. Ir a: `[http://3.239.228.202:3000/]`
+2. Seleccionar Multi-ciudad
+3. Competar todos los campos
+4. Hacer click en buscar vuelos
+
+### ❌ Resultado actual
+> El sistema muestra los resultados como Solo ida, evidenciando una inconsistencia en la lógica de procesamiento y/o visualización.
+
+### ✅ Resultado esperado
+> Debería de mostrar los vuelos Multi-ciudad
+
+### 📎 Evidencia
+- 📷 Screenshots: N/A
+- 🎥 Video: [Evidencia](https://jam.dev/c/fc1b2b88-4e37-488e-ad61-67cc375ca6c5)
+- 📄 Logs: N/A
+
+-------------------------------------------------------------
